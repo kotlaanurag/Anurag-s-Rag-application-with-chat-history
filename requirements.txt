@@ -1,0 +1,14 @@
+langchain-openai
+langchain
+python-dotenv
+langchain_community
+langchain_core
+streamlit
+langchain_groq
+langchain-text-splitters
+Sentence_transformers
+langchain_huggingface
+PyPDF
+Pymupdf
+langchain-community
+ipykernel
