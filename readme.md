@@ -10,3 +10,15 @@ You need to install the required build tools. You can download and install them 
 
 Microsoft Visual C++ Build Tools:link:(https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 During installation, ensure that you include the "Desktop development with C++" workload. This will provide the necessary compilers and libraries needed to build the package.
+
+#code running process
+->conda create -p venv python==3.12 -y(create environmental variables)
+->conda activate venv/ (to activate env)
+->pip install chromadb
+->streamlit rum app.py(to run the code)
+
+#Application:
+1)Provide the Grooq API key in the GROOQ API KEY SECTION.
+2)In the SESSION_ID column you can give any specified section id to remember your history.
+3)And ADD the pdf files in the DRAG AND DROP FILES section.
+4)Now you can ask questions the LLM Model will refer the pdfs you have submitted and provide the exact answers.
